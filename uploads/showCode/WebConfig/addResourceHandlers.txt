@@ -1,0 +1,1 @@
+"// 覆寫了父類別的方法\r\n@Override\r\npublic void addResourceHandlers(ResourceHandlerRegistry registry) {\r\n    // 在 \"/home/file/**\" 前端 URL 訪問路徑，后面 file : xxxx 為本地資料夾映射\r\n    registry.addResourceHandler(\"/home/**\").addResourceLocations(origin_path);\r\n    WebMvcConfigurer.super.addResourceHandlers(registry);\r\n}"

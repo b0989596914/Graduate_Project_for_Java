@@ -1,0 +1,47 @@
+server:
+  port: 9100
+  servlet:
+    context-path: /
+  proxy:
+    host: 127.0.0.1
+    port: 8080
+
+spring:
+#  resources:
+#    static-locations: file:C:/web screen/static/
+  thymeleaf:
+    cache: false
+    prefix: file:C:/Users/User/Desktop/前端/Graduate_Project/public/  # 設定去哪個資料夾找html檔案
+    suffix: .html
+    enabled: true
+    encoding: UTF-8
+    mode: HTML5
+  servlet:
+    multipart:
+      enabled: true               # Enable multipart uploads
+      file-size-threshold: 2000MB    # Threshold after which files are written to disk.
+      max-file-size: 1000MB       # Max file size -> change it to accept more zip file
+      max-request-size: 1000MB    # Max Request Size
+  datasource:
+    url: jdbc:mysql://140.134.25.64:25306/springboot
+    username: root
+    password: fcu123
+
+## File Storage Properties
+# change this path to store the file which we upload
+file.upload-dir: uploads/zip_File
+
+# search upzip folder's path for file pom.xml and read it
+#  ex: src/main/resources/test/Graduate_Project-master/pom.xml
+folder:
+  unzip_path: uploads/unzip_File
+  path: ./uploads
+  json_path: uploads/json_file
+  showCode_path: uploads/showCode/
+
+
+file:
+  upload:
+    root:
+      dir:
+        windows: ./upload/

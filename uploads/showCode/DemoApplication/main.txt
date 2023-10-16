@@ -1,0 +1,1 @@
+"public static void main(String[] args) {\r\n    SpringApplication.run(DemoApplication.class, args);\r\n}"

@@ -1,0 +1,1 @@
+"@Override\r\npublic void visit(MethodCallExpr n, Void arg) {\r\n    temp.add(n.getNameAsExpression().toString());\r\n    // 獲得 method name\r\n    use_methods.add(n.getNameAsExpression().toString());\r\n}"

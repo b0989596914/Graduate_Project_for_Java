@@ -1,0 +1,1 @@
+"public void setSize(long size) {\r\n    this.size = size;\r\n}"

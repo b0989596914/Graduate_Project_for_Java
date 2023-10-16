@@ -1,0 +1,1 @@
+"public ArrayList<MethodCallOtherMethods_Node> getChild_methods() {\r\n    return child_methods;\r\n}"

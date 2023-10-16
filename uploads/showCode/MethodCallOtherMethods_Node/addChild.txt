@@ -1,0 +1,1 @@
+"public void addChild(MethodCallOtherMethods_Node node) {\r\n    child_methods.add(node);\r\n}"
