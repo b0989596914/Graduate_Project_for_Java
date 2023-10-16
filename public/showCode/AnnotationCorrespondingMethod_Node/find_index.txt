@@ -1,0 +1,1 @@
+"// 尋找method所在的index\r\npublic int find_index(List<MethodCallOtherMethods_Node> node, String methodNameToFind) {\r\n    for (int i = 0; i < node.size(); i++) {\r\n        if (node.get(i).getMethodName().equals(methodNameToFind)) {\r\n            return i;\r\n        }\r\n    }\r\n    return -1;\r\n}"

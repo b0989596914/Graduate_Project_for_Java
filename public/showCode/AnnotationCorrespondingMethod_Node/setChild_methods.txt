@@ -1,0 +1,1 @@
+"//    public void setChild_methods(ArrayList<MethodCallOtherMethods_Node> child_methods) {\r\n//        this.child_methods = child_methods;\r\n//    }\r\npublic void setChild_methods(ArrayList<MethodCallOtherMethods_Node> child_methods) {\r\n    this.child_methods = child_methods;\r\n}"

@@ -1,0 +1,1 @@
+"public static void deleteDirectory(File directory) {\r\n    if (directory.isDirectory()) {\r\n        File[] files = directory.listFiles();\r\n        if (files != null) {\r\n            for (File file : files) {\r\n                deleteDirectory(file);\r\n            }\r\n        }\r\n    }\r\n    directory.delete();\r\n}"

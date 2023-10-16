@@ -1,0 +1,1 @@
+"public String getFileType() {\r\n    return fileType;\r\n}"

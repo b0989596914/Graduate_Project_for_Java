@@ -1,0 +1,1 @@
+"//    getter and setter\r\npublic String getFileName() {\r\n    return fileName;\r\n}"
