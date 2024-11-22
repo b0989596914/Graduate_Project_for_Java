@@ -1,7 +1,11 @@
 # 畢業專題
 
 ### 網頁前端 Vue 放置於 "vue3" 分支上
+   - 放在C槽裡面web screen資料夾中
+   - 打開cmd、conda虛擬機執行npm install、npm run serve
 ### 網頁後端 SpringBoot 放置於 "master" 分支上
+
+
 
 ## 介紹
 1. 進入主頁面
